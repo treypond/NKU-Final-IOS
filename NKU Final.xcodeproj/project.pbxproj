@@ -9,19 +9,57 @@
 /* Begin PBXBuildFile section */
 		E8BAF42D282AC2EC008054F4 /* NKU_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF41D282AC2EA008054F4 /* NKU_FinalApp.swift */; };
 		E8BAF42E282AC2EC008054F4 /* NKU_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF41D282AC2EA008054F4 /* NKU_FinalApp.swift */; };
-		E8BAF42F282AC2EC008054F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF41E282AC2EA008054F4 /* ContentView.swift */; };
-		E8BAF430282AC2EC008054F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF41E282AC2EA008054F4 /* ContentView.swift */; };
 		E8BAF431282AC2EC008054F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BAF41F282AC2EC008054F4 /* Assets.xcassets */; };
 		E8BAF432282AC2EC008054F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BAF41F282AC2EC008054F4 /* Assets.xcassets */; };
+		E8BAF446282AC385008054F4 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF443282AC385008054F4 /* CharacterList.swift */; };
+		E8BAF447282AC385008054F4 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF443282AC385008054F4 /* CharacterList.swift */; };
+		E8BAF448282AC385008054F4 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF444282AC385008054F4 /* CharacterRow.swift */; };
+		E8BAF449282AC385008054F4 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF444282AC385008054F4 /* CharacterRow.swift */; };
+		E8BAF44A282AC385008054F4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF445282AC385008054F4 /* Character.swift */; };
+		E8BAF44B282AC385008054F4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF445282AC385008054F4 /* Character.swift */; };
+		E8BAF44F282AC3BE008054F4 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF44C282AC3BE008054F4 /* JSONParameterEncoder.swift */; };
+		E8BAF450282AC3BE008054F4 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF44C282AC3BE008054F4 /* JSONParameterEncoder.swift */; };
+		E8BAF451282AC3BE008054F4 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF44D282AC3BE008054F4 /* URLParameterEncoder.swift */; };
+		E8BAF452282AC3BE008054F4 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF44D282AC3BE008054F4 /* URLParameterEncoder.swift */; };
+		E8BAF453282AC3BE008054F4 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF44E282AC3BE008054F4 /* ParameterEncoding.swift */; };
+		E8BAF454282AC3BE008054F4 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF44E282AC3BE008054F4 /* ParameterEncoding.swift */; };
+		E8BAF456282AC3CA008054F4 /* MarvelEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF455282AC3CA008054F4 /* MarvelEndPoint.swift */; };
+		E8BAF457282AC3CA008054F4 /* MarvelEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF455282AC3CA008054F4 /* MarvelEndPoint.swift */; };
+		E8BAF459282AC3D3008054F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF458282AC3D3008054F4 /* NetworkManager.swift */; };
+		E8BAF45A282AC3D3008054F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF458282AC3D3008054F4 /* NetworkManager.swift */; };
+		E8BAF460282AC3DE008054F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45B282AC3DE008054F4 /* Router.swift */; };
+		E8BAF461282AC3DE008054F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45B282AC3DE008054F4 /* Router.swift */; };
+		E8BAF462282AC3DE008054F4 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45C282AC3DE008054F4 /* HTTPTask.swift */; };
+		E8BAF463282AC3DE008054F4 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45C282AC3DE008054F4 /* HTTPTask.swift */; };
+		E8BAF464282AC3DE008054F4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45D282AC3DE008054F4 /* HTTPMethod.swift */; };
+		E8BAF465282AC3DE008054F4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45D282AC3DE008054F4 /* HTTPMethod.swift */; };
+		E8BAF466282AC3DE008054F4 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45E282AC3DE008054F4 /* EndPointType.swift */; };
+		E8BAF467282AC3DE008054F4 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45E282AC3DE008054F4 /* EndPointType.swift */; };
+		E8BAF468282AC3DE008054F4 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45F282AC3DE008054F4 /* NetworkLogger.swift */; };
+		E8BAF469282AC3DE008054F4 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF45F282AC3DE008054F4 /* NetworkLogger.swift */; };
+		E8BAF46C282AC43E008054F4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E8BAF46B282AC43E008054F4 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8BAF41D282AC2EA008054F4 /* NKU_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKU_FinalApp.swift; sourceTree = "<group>"; };
-		E8BAF41E282AC2EA008054F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8BAF41F282AC2EC008054F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8BAF424282AC2EC008054F4 /* NKU Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NKU Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BAF42A282AC2EC008054F4 /* NKU Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NKU Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BAF42C282AC2EC008054F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E8BAF443282AC385008054F4 /* CharacterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		E8BAF444282AC385008054F4 /* CharacterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		E8BAF445282AC385008054F4 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E8BAF44C282AC3BE008054F4 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		E8BAF44D282AC3BE008054F4 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		E8BAF44E282AC3BE008054F4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		E8BAF455282AC3CA008054F4 /* MarvelEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelEndPoint.swift; sourceTree = "<group>"; };
+		E8BAF458282AC3D3008054F4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E8BAF45B282AC3DE008054F4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E8BAF45C282AC3DE008054F4 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		E8BAF45D282AC3DE008054F4 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		E8BAF45E282AC3DE008054F4 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		E8BAF45F282AC3DE008054F4 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		E8BAF470282AC5A3008054F4 /* NKU-Final--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NKU-Final--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BAF46C282AC43E008054F4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +84,13 @@
 		E8BAF417282AC2E9008054F4 = {
 			isa = PBXGroup;
 			children = (
+				E8BAF470282AC5A3008054F4 /* NKU-Final--iOS--Info.plist */,
+				E8BAF43C282AC30B008054F4 /* Characters */,
+				E8BAF43D282AC314008054F4 /* Networking */,
 				E8BAF41C282AC2EA008054F4 /* Shared */,
 				E8BAF42B282AC2EC008054F4 /* macOS */,
 				E8BAF425282AC2EC008054F4 /* Products */,
+				E8BAF46D282AC49A008054F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				E8BAF41D282AC2EA008054F4 /* NKU_FinalApp.swift */,
-				E8BAF41E282AC2EA008054F4 /* ContentView.swift */,
 				E8BAF41F282AC2EC008054F4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +120,72 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		E8BAF43C282AC30B008054F4 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAF445282AC385008054F4 /* Character.swift */,
+				E8BAF443282AC385008054F4 /* CharacterList.swift */,
+				E8BAF444282AC385008054F4 /* CharacterRow.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		E8BAF43D282AC314008054F4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAF440282AC33B008054F4 /* Encoding */,
+				E8BAF43F282AC334008054F4 /* EndPoint */,
+				E8BAF441282AC342008054F4 /* Manager */,
+				E8BAF442282AC348008054F4 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E8BAF43F282AC334008054F4 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAF455282AC3CA008054F4 /* MarvelEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		E8BAF440282AC33B008054F4 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAF44C282AC3BE008054F4 /* JSONParameterEncoder.swift */,
+				E8BAF44E282AC3BE008054F4 /* ParameterEncoding.swift */,
+				E8BAF44D282AC3BE008054F4 /* URLParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		E8BAF441282AC342008054F4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAF458282AC3D3008054F4 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E8BAF442282AC348008054F4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAF45E282AC3DE008054F4 /* EndPointType.swift */,
+				E8BAF45D282AC3DE008054F4 /* HTTPMethod.swift */,
+				E8BAF45C282AC3DE008054F4 /* HTTPTask.swift */,
+				E8BAF45F282AC3DE008054F4 /* NetworkLogger.swift */,
+				E8BAF45B282AC3DE008054F4 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E8BAF46D282AC49A008054F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +202,9 @@
 			dependencies = (
 			);
 			name = "NKU Final (iOS)";
+			packageProductDependencies = (
+				E8BAF46B282AC43E008054F4 /* Kingfisher */,
+			);
 			productName = "NKU Final (iOS)";
 			productReference = E8BAF424282AC2EC008054F4 /* NKU Final.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +222,8 @@
 			dependencies = (
 			);
 			name = "NKU Final (macOS)";
+			packageProductDependencies = (
+			);
 			productName = "NKU Final (macOS)";
 			productReference = E8BAF42A282AC2EC008054F4 /* NKU Final.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +255,9 @@
 				Base,
 			);
 			mainGroup = E8BAF417282AC2E9008054F4;
+			packageReferences = (
+				E8BAF46A282AC43E008054F4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E8BAF425282AC2EC008054F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,7 +292,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8BAF42F282AC2EC008054F4 /* ContentView.swift in Sources */,
+				E8BAF468282AC3DE008054F4 /* NetworkLogger.swift in Sources */,
+				E8BAF462282AC3DE008054F4 /* HTTPTask.swift in Sources */,
+				E8BAF460282AC3DE008054F4 /* Router.swift in Sources */,
+				E8BAF446282AC385008054F4 /* CharacterList.swift in Sources */,
+				E8BAF459282AC3D3008054F4 /* NetworkManager.swift in Sources */,
+				E8BAF453282AC3BE008054F4 /* ParameterEncoding.swift in Sources */,
+				E8BAF466282AC3DE008054F4 /* EndPointType.swift in Sources */,
+				E8BAF44F282AC3BE008054F4 /* JSONParameterEncoder.swift in Sources */,
+				E8BAF44A282AC385008054F4 /* Character.swift in Sources */,
+				E8BAF451282AC3BE008054F4 /* URLParameterEncoder.swift in Sources */,
+				E8BAF456282AC3CA008054F4 /* MarvelEndPoint.swift in Sources */,
+				E8BAF464282AC3DE008054F4 /* HTTPMethod.swift in Sources */,
+				E8BAF448282AC385008054F4 /* CharacterRow.swift in Sources */,
 				E8BAF42D282AC2EC008054F4 /* NKU_FinalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8BAF430282AC2EC008054F4 /* ContentView.swift in Sources */,
+				E8BAF469282AC3DE008054F4 /* NetworkLogger.swift in Sources */,
+				E8BAF463282AC3DE008054F4 /* HTTPTask.swift in Sources */,
+				E8BAF461282AC3DE008054F4 /* Router.swift in Sources */,
+				E8BAF447282AC385008054F4 /* CharacterList.swift in Sources */,
+				E8BAF45A282AC3D3008054F4 /* NetworkManager.swift in Sources */,
+				E8BAF454282AC3BE008054F4 /* ParameterEncoding.swift in Sources */,
+				E8BAF467282AC3DE008054F4 /* EndPointType.swift in Sources */,
+				E8BAF450282AC3BE008054F4 /* JSONParameterEncoder.swift in Sources */,
+				E8BAF44B282AC385008054F4 /* Character.swift in Sources */,
+				E8BAF452282AC3BE008054F4 /* URLParameterEncoder.swift in Sources */,
+				E8BAF457282AC3CA008054F4 /* MarvelEndPoint.swift in Sources */,
+				E8BAF465282AC3DE008054F4 /* HTTPMethod.swift in Sources */,
+				E8BAF449282AC385008054F4 /* CharacterRow.swift in Sources */,
 				E8BAF42E282AC2EC008054F4 /* NKU_FinalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +453,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NKU-Final--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +483,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NKU-Final--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8BAF46A282AC43E008054F4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8BAF46B282AC43E008054F4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8BAF46A282AC43E008054F4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8BAF418282AC2E9008054F4 /* Project object */;
 }
