@@ -8,11 +8,7 @@ struct CharacterRow: View {
     var body: some View {
         VStack {
             HStack {
-                KFImage(character.thumbnail?.getImageURL())
-                    .resizable()
-                    .frame(width: 32, height: 32)
-                    .cornerRadius(6)
-                Text(character.name ?? "Unknown")
+                
             }
         }
     }
