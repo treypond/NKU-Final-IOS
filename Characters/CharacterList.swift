@@ -7,7 +7,13 @@ struct CharacterList: View {
     var body: some View {
         NavigationView {
             VStack {
-                
+                List(characters, id: \.id){ MarvelCharacter in
+                    CharacterRow(character:MarvelCharacter)
+                    
+                }
+                .onAppear{
+                    getCharacters()
+                }
             }
             .navigationTitle("Characters")
         }.navigationViewStyle(StackNavigationViewStyle())
